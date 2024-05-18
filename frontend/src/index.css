@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:where(.css-dev-only-do-not-override-1qfezbu).ant-form-item .ant-form-item-control:first-child:not([class^="'ant-col-'"]):not([class*="' ant-col-'"]){
+  margin-left: -10px;
+}
+:where(.css-dev-only-do-not-override-1qfezbu).ant-col-sm-20 {
+      max-width: 100% ;
+    }
+/* :where(.css-dev-only-do-not-override-1qfezbu){
+  max-width: 100% ;
+} */
